@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 const ChangeTitle = () => {
     const [text, setText] = useState('')
 
-    useEffect(() => {document.title = text})
+    useEffect(() => document.title = text)
 
     return(
         <div>
