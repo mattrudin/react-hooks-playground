@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import InputText from './components/InputText'
 import FormInput from './components/FormInput'
+import ChangeTitle from './components/ChangeTitle'
 
 class App extends Component {
   render() {
@@ -12,6 +13,8 @@ class App extends Component {
           <InputText />
           <p>FormInput Component</p>
           <FormInput />
+          <p>ChangeTitle Component</p>
+          <ChangeTitle />
         </header>
       </div>
     );
